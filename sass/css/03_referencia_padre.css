@@ -1,0 +1,19 @@
+nav.menu ul {
+  width: 300px;
+  padding: 0px;
+  list-style: none;
+}
+nav.menu ul li {
+  background-color: seagreen;
+  color: white;
+  padding: 4px;
+  margin: 2px 0px;
+  transition: all 0.5s;
+}
+nav.menu ul li:hover {
+  cursor: pointer;
+  transform: translateX(20px);
+}
+nav.menu ul li.active {
+  background-color: crimson;
+}

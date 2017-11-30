@@ -1,0 +1,21 @@
+nav.menu {
+	ul{
+		width: 300px;
+		padding:0px;
+		list-style:none;
+		li{
+			background-color:seagreen;
+			color:white;
+			padding:4px;
+			margin:2px 0px;
+			transition: all 0.5s;
+			&:hover{
+				cursor:pointer;
+				transform: translateX(20px);
+			}
+			&.active{
+				background-color: crimson;
+			}
+		}
+	}
+}
