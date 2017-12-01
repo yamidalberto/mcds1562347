@@ -1,0 +1,12 @@
+div.box1 {
+  background-color: seagreen;
+  width: 200px;
+  height: 150px;
+}
+
+section {
+  color: #666666;
+  margin-left: 8px;
+  width: 200px;
+  border: red 3px solid;
+}

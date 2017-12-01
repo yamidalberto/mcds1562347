@@ -1,0 +1,7 @@
+p {
+  background-color: seagreen;
+  border: 1px dashed rgba(255, 255, 255, 0.4);
+  text-align: justify;
+  line-height: 2em;
+  padding: 20px;
+}

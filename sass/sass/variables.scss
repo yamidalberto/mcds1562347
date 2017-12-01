@@ -1,0 +1,16 @@
+$ancho: 200px; 
+$color: #333; 
+div.box1 { 
+	$alto: 100px !global;
+	background-color: seagreen;
+	width: $ancho;
+	height: 150px; 
+	
+}
+
+section { 
+	color: $color + #333; 
+	margin-left: 4px + 8px/2px;
+	width: $ancho;
+	border: red 3px solid;
+}

@@ -1,0 +1,14 @@
+section div {
+  height: 150px;
+  margin: 10px auto;
+  width: 200px;
+}
+section div.box1 {
+  border: red 2px solid;
+}
+section div.box2 {
+  border: green 4px dotted;
+}
+section div.box3 {
+  border: blue 1px dashed;
+}

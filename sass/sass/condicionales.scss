@@ -1,0 +1,10 @@
+p { 
+  @if 1 + 1 == 2 { 	background-color:	seagreen;
+					border: 1px dashed 	rgba(255,255,255,.4);
+					text-align: justify;
+					line-height: 2em;
+					padding: 20px;  } 
+  @if 5 < 3      { border: 5px dotted; } 
+  @if null       { border: 3px double; } 
+
+}
